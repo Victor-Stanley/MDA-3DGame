@@ -57,7 +57,7 @@ class GameViewController: UIViewController {
             self.removeShip()
             DispatchQueue.main.async {
                 self.scnView.removeGestureRecognizer(self.tapGesture)
-                self.scoreLabel.text = "Game over:" + String(self.score)
+                self.scoreLabel.text = "Game over: " + String(self.score)
             }
             
         }
@@ -120,7 +120,7 @@ class GameViewController: UIViewController {
         tapGesture = UITapGestureRecognizer(target: self, action: #selector(handleTap(_:)))
         scnView.addGestureRecognizer(tapGesture)
         
-        self.duration *= 0.9
+        
             
         //load ship
         spanShip()
@@ -156,6 +156,8 @@ class GameViewController: UIViewController {
                 self.removeShip()
                 
                 self.score+=1
+                
+                self.duration *= 0.9
                                 
                 self.spanShip()
             }
