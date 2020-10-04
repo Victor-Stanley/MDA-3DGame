@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:MDA 3DGame.xcodeproj">
+      location = "self:/Users/stanley/Dev/MDA 3DGame/MDA.xcodeproj">
    </FileRef>
 </Workspace>

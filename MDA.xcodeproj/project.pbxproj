@@ -11,21 +11,21 @@
 		4800675225278C0300D02EAA /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 4800675125278C0300D02EAA /* art.scnassets */; };
 		4800675425278C0300D02EAA /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4800675325278C0300D02EAA /* GameViewController.swift */; };
 		4800675725278C0300D02EAA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4800675525278C0300D02EAA /* Main.storyboard */; };
-		4800675925278C0800D02EAA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4800675825278C0800D02EAA /* Assets.xcassets */; };
 		4800675C25278C0800D02EAA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4800675A25278C0800D02EAA /* LaunchScreen.storyboard */; };
 		489E78E82529DF22006CB4E2 /* ScrTop.png in Resources */ = {isa = PBXBuildFile; fileRef = 489E78E72529DF22006CB4E2 /* ScrTop.png */; };
+		489E78EC2529EA0A006CB4E2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 489E78EB2529EA09006CB4E2 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		4800674C25278C0300D02EAA /* MDA 3DGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MDA 3DGame.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4800674C25278C0300D02EAA /* MDA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MDA.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4800674F25278C0300D02EAA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4800675125278C0300D02EAA /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
 		4800675325278C0300D02EAA /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		4800675625278C0300D02EAA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		4800675825278C0800D02EAA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4800675B25278C0800D02EAA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4800675D25278C0800D02EAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		489E78E72529DF22006CB4E2 /* ScrTop.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ScrTop.png; path = ../../../../Desktop/ScrTop.png; sourceTree = "<group>"; };
+		489E78EB2529EA09006CB4E2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../../Downloads/AppIcons/Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,7 +50,7 @@
 		4800674D25278C0300D02EAA /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				4800674C25278C0300D02EAA /* MDA 3DGame.app */,
+				4800674C25278C0300D02EAA /* MDA.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -60,7 +60,7 @@
 			children = (
 				4800674F25278C0300D02EAA /* AppDelegate.swift */,
 				4800675125278C0300D02EAA /* art.scnassets */,
-				4800675825278C0800D02EAA /* Assets.xcassets */,
+				489E78EB2529EA09006CB4E2 /* Assets.xcassets */,
 				4800675325278C0300D02EAA /* GameViewController.swift */,
 				4800675D25278C0800D02EAA /* Info.plist */,
 				4800675A25278C0800D02EAA /* LaunchScreen.storyboard */,
@@ -81,9 +81,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		4800674B25278C0300D02EAA /* MDA 3DGame */ = {
+		4800674B25278C0300D02EAA /* MDA */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4800676025278C0800D02EAA /* Build configuration list for PBXNativeTarget "MDA 3DGame" */;
+			buildConfigurationList = 4800676025278C0800D02EAA /* Build configuration list for PBXNativeTarget "MDA" */;
 			buildPhases = (
 				4800674825278C0300D02EAA /* Sources */,
 				4800674925278C0300D02EAA /* Frameworks */,
@@ -93,9 +93,9 @@
 			);
 			dependencies = (
 			);
-			name = "MDA 3DGame";
+			name = MDA;
 			productName = "MDA 3DGame";
-			productReference = 4800674C25278C0300D02EAA /* MDA 3DGame.app */;
+			productReference = 4800674C25278C0300D02EAA /* MDA.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -113,7 +113,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 4800674725278C0300D02EAA /* Build configuration list for PBXProject "MDA 3DGame" */;
+			buildConfigurationList = 4800674725278C0300D02EAA /* Build configuration list for PBXProject "MDA" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -126,7 +126,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				4800674B25278C0300D02EAA /* MDA 3DGame */,
+				4800674B25278C0300D02EAA /* MDA */,
 			);
 		};
 /* End PBXProject section */
@@ -138,8 +138,8 @@
 			files = (
 				4800675225278C0300D02EAA /* art.scnassets in Resources */,
 				4800675C25278C0800D02EAA /* LaunchScreen.storyboard in Resources */,
-				4800675925278C0800D02EAA /* Assets.xcassets in Resources */,
 				4800675725278C0300D02EAA /* Main.storyboard in Resources */,
+				489E78EC2529EA0A006CB4E2 /* Assets.xcassets in Resources */,
 				489E78E82529DF22006CB4E2 /* ScrTop.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -333,7 +333,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		4800674725278C0300D02EAA /* Build configuration list for PBXProject "MDA 3DGame" */ = {
+		4800674725278C0300D02EAA /* Build configuration list for PBXProject "MDA" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4800675E25278C0800D02EAA /* Debug */,
@@ -342,7 +342,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4800676025278C0800D02EAA /* Build configuration list for PBXNativeTarget "MDA 3DGame" */ = {
+		4800676025278C0800D02EAA /* Build configuration list for PBXNativeTarget "MDA" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4800676125278C0800D02EAA /* Debug */,
