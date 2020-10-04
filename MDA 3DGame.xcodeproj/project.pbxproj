@@ -13,7 +13,7 @@
 		4800675725278C0300D02EAA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4800675525278C0300D02EAA /* Main.storyboard */; };
 		4800675925278C0800D02EAA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4800675825278C0800D02EAA /* Assets.xcassets */; };
 		4800675C25278C0800D02EAA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4800675A25278C0800D02EAA /* LaunchScreen.storyboard */; };
-		48C4A8E52529DAF6000A531D /* Screen01.png in Resources */ = {isa = PBXBuildFile; fileRef = 48C4A8E42529DAF6000A531D /* Screen01.png */; };
+		489E78E82529DF22006CB4E2 /* ScrTop.png in Resources */ = {isa = PBXBuildFile; fileRef = 489E78E72529DF22006CB4E2 /* ScrTop.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,8 +25,7 @@
 		4800675825278C0800D02EAA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4800675B25278C0800D02EAA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4800675D25278C0800D02EAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		48C4A8E42529DAF6000A531D /* Screen01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Screen01.png; path = ../../../Desktop/Screen01.png; sourceTree = "<group>"; };
-		48C4A8E82529DB0D000A531D /* Screen01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Screen01.png; sourceTree = "<group>"; };
+		489E78E72529DF22006CB4E2 /* ScrTop.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ScrTop.png; path = ../../../../Desktop/ScrTop.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,7 +65,6 @@
 				4800675D25278C0800D02EAA /* Info.plist */,
 				4800675A25278C0800D02EAA /* LaunchScreen.storyboard */,
 				4800675525278C0300D02EAA /* Main.storyboard */,
-				48C4A8E42529DAF6000A531D /* Screen01.png */,
 				48C4A8E72529DB0D000A531D /* Screenshots */,
 			);
 			path = "MDA 3DGame";
@@ -75,7 +73,7 @@
 		48C4A8E72529DB0D000A531D /* Screenshots */ = {
 			isa = PBXGroup;
 			children = (
-				48C4A8E82529DB0D000A531D /* Screen01.png */,
+				489E78E72529DF22006CB4E2 /* ScrTop.png */,
 			);
 			path = Screenshots;
 			sourceTree = "<group>";
@@ -142,7 +140,7 @@
 				4800675C25278C0800D02EAA /* LaunchScreen.storyboard in Resources */,
 				4800675925278C0800D02EAA /* Assets.xcassets in Resources */,
 				4800675725278C0300D02EAA /* Main.storyboard in Resources */,
-				48C4A8E52529DAF6000A531D /* Screen01.png in Resources */,
+				489E78E82529DF22006CB4E2 /* ScrTop.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
